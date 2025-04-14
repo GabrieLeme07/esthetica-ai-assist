@@ -3,6 +3,10 @@ import { Button } from "@/components/ui/button";
 import { MessageSquare, Calendar, Sparkles } from 'lucide-react';
 
 const Hero = () => {
+  const scrollToContact = () => {
+    document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <section className="pt-28 pb-20 md:pt-36 md:pb-24 overflow-hidden">
       <div className="container mx-auto px-4 md:px-6">
@@ -21,11 +25,8 @@ const Hero = () => {
               Transforme o atendimento da sua clínica de estética com um assistente virtual inteligente via WhatsApp para agendamentos, confirmações e suporte 24/7.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button className="button-hover-effect" size="lg">
-                Começar Agora
-              </Button>
-              <Button variant="outline" size="lg" className="button-hover-effect">
-                Ver Demonstração
+              <Button onClick={scrollToContact} size="lg" className="button-hover-effect">
+                Transforme sua Clínica
               </Button>
             </div>
             <div className="flex items-center space-x-4 text-sm">

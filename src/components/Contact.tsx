@@ -14,7 +14,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="py-20">
+    <section id="contact" className="py-20">
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left side - Contact form */}
@@ -23,7 +23,7 @@ const Contact = () => {
               Transforme sua Clínica <span className="gradient-heading">Hoje Mesmo</span>
             </h2>
             <p className="text-lg text-gray-600 mb-8">
-              Entre em contato para uma demonstração personalizada e descubra como nossa plataforma pode transformar sua clínica de estética.
+              Entre em contato para uma demonstração personalizada e descubra como nossa plataforma da IA Beauty pode transformar sua clínica de estética.
             </p>
             
             <form onSubmit={handleSubmit} className="space-y-4">
