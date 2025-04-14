@@ -34,7 +34,7 @@ const Footer = () => {
             <div className="mb-4">
               <a href="#" className="text-xl font-bold text-white flex items-center">
                 <span className="mr-2">✨</span>
-                Esthetica<span className="text-brand-teal">AI</span>
+                IA<span className="text-brand-teal">Beauty</span>
               </a>
             </div>
             <p className="mb-4">
@@ -78,7 +78,7 @@ const Footer = () => {
         
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p>
-            &copy; {currentYear} EstheticaAI. Todos os direitos reservados.
+            &copy; {currentYear} IA Beauty. Todos os direitos reservados.
           </p>
           <div className="mt-4 md:mt-0">
             <select className="bg-gray-800 text-gray-300 px-3 py-1 rounded-md focus:outline-none focus:ring-2 focus:ring-brand-purple">
