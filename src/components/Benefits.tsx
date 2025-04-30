@@ -1,5 +1,5 @@
 
-import { Button } from "@/components/ui/button";
+import { Button } from "../components/ui/button";
 import { ArrowRight, CheckCircle, Clock, DollarSign, Users } from 'lucide-react';
 
 const Benefits = () => {

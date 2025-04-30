@@ -1,6 +1,6 @@
 
 import { useState } from 'react';
-import { Button } from "@/components/ui/button";
+import { Button } from "../components/ui/button";
 import { Check, MessageCircle, Calendar, Phone } from 'lucide-react';
 
 const Contact = () => {
