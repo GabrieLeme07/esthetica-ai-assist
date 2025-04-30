@@ -78,18 +78,7 @@ const Contact = () => {
           <div className="bg-gradient-to-br from-brand-purple/10 to-brand-teal/10 rounded-2xl p-8">
             <h3 className="text-2xl font-semibold mb-6">Outras formas de contato</h3>
             
-            <div className="space-y-6">
-              <div className="flex items-start">
-                <div className="bg-white p-3 rounded-full shadow-soft mr-4">
-                  <Phone className="h-6 w-6 text-brand-purple" />
-                </div>
-                <div>
-                  <h4 className="font-semibold mb-1">Telefone</h4>
-                  <p className="text-gray-600">(11) 92090-2166</p>
-                  <p className="text-sm text-gray-500 mt-1">Segunda a Sexta, 9h às 18h</p>
-                </div>
-              </div>
-              
+            <div className="space-y-6">              
               <div className="flex items-start">
                 <div className="bg-white p-3 rounded-full shadow-soft mr-4">
                   <MessageCircle className="h-6 w-6 text-brand-purple" />
@@ -113,7 +102,7 @@ const Contact = () => {
               
               <div className="bg-white rounded-xl p-6 shadow-soft mt-6">
                 <h4 className="font-semibold mb-3">Pronto para começar?</h4>
-                <p className="text-gray-600 mb-4">Inicie sua transformação digital com um período de teste gratuito de 14 dias.</p>
+                <p className="text-gray-600 mb-4">Inicie sua transformação digital com um período de teste gratuito de 7 dias.</p>
                 <Button variant="outline" className="w-full">
                   Comece seu Teste Gratuito
                 </Button>
