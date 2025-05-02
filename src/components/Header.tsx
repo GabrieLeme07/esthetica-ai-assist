@@ -1,7 +1,8 @@
-
+// src/components/Header.tsx
 import { useState } from 'react';
 import { Button } from "../components/ui/button";
 import { Menu, X } from 'lucide-react';
+import logo from '../assets/logo_2.png';
 
 const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -18,9 +19,12 @@ const Header = () => {
     <header className="fixed w-full top-0 bg-white/90 backdrop-blur-sm z-50 border-b">
       <div className="container mx-auto px-4 md:px-6 py-3 flex items-center justify-between">
         <div className="flex items-center">
-          <a href="#" className="text-xl font-bold text-brand-purple flex items-center">
-            <span className="mr-2">✨</span>
-            IA <span className="text-brand-teal ml-1">Beauty</span>
+          <a href="#" className="flex items-center">
+            <img 
+              src={logo} 
+              alt="IA Beauty" 
+              className="h-14 w-auto md:h-18 mr-2"  
+            />
           </a>
         </div>
 

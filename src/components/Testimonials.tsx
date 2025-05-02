@@ -4,7 +4,7 @@ import { Star } from 'lucide-react';
 const Testimonials = () => {
   const testimonials = [
     {
-      quote: "A EstheticaAI transformou completamente o fluxo de trabalho da minha clínica. Economizamos horas diárias em tarefas administrativas e reduzimos nossas faltas em mais de 60%.",
+      quote: "A IA Beauty transformou completamente o fluxo de trabalho da minha clínica. Economizamos horas diárias em tarefas administrativas e reduzimos nossas faltas em mais de 60%.",
       author: "Dra. Carla Oliveira",
       role: "Proprietária, Clínica Beleza Natural",
       image: "https://randomuser.me/api/portraits/women/68.jpg",

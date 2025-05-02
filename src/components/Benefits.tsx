@@ -48,7 +48,7 @@ const Benefits = () => {
           {/* Right side - Text content */}
           <div className="space-y-6">
             <h2 className="text-3xl md:text-4xl font-bold">
-              Benefícios de usar <span className="gradient-heading">EstheticaAI</span> na sua clínica
+              Benefícios de usar <span className="gradient-heading">IA Beauty</span> na sua clínica
             </h2>
             <p className="text-lg text-gray-600">
               Nossa solução impulsiona resultados reais para clínicas de estética em todo o Brasil, otimizando processos e melhorando a experiência do cliente.
